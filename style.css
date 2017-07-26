@@ -1,46 +1,30 @@
-/* Here goes your CSS */
-#sidebar {
-  position: fixed;
-  width: 200px;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  background-color: #3f3f3f;
-}
-
 body {
   background-color: #F7F7F7;
   font-family: "Helvetica";
 }
 
 
-h1, h2, h3, h4 {
+h1, h2, h3 {
   color: #203562;
   font-family: "Montserrat", sans-serif;
   text-align: center;
-  padding-top: 10px;
-}
-
-h4 {
-  color: black;
-  border-bottom: 1px solid black;
-  margin: 2px;
 }
 
 p {
   text-align: center;
-  color: #706f6f;
+  color: #5f5f5f;
 }
 
 a {
   text-decoration: none;
-  color: #1e4fb2;
+  color: #3E588F;
   font-family: "Helvetica", sans-serif;
-  font-size: 20px;
 }
 
 a:hover {
-  color: red;
+  text-decoration: underline;
+  color: black;
+  font-weight: bold;
 }
 
 .card {
@@ -48,7 +32,7 @@ a:hover {
   width: 500px;
   position: center;
   border-radius: 5px;
-  box-shadow: 1px 1px 3px #e2e0e0;
+  box-shadow: 1px 1px 3px grey;
   padding-bottom: 10px;
   margin: 0 auto;
 }
@@ -60,7 +44,7 @@ a:hover {
   height: 300px;
   border-radius: 150px;
   border: 6px solid #F7F7F7;
-  box-shadow: 1px 1px 3px #e2e0e0;
+  box-shadow: 1px 1px 3px grey;
 }
 
 .table-image {
@@ -74,26 +58,10 @@ a:hover {
   text-align: center;
 }
 
-ul {
-  text-align: center;
-}
-
-li {
-  text-decoration: none;
+.list-inline {
   display: inline-block;
 }
 
-#social {
-  padding: 20px;
-}
-
-.nav {
-  color: white;
-  font-size: 40px;
-  padding: 40px;
-}
-
-#middle {
-  border-top: 2px solid white;
-  border-bottom: 2px solid white;
+ul {
+  margin: 0 auto;
 }
