@@ -1,0 +1,92 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Charlie's Profile Page</title>
+
+    <!-- Google fonts -->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700">
+
+    <!-- Fontawesome -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Your style -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="sidebar">
+      <ul>
+        <li>
+          <a href="#top">
+            <i class="fa fa-info-circle nav"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#social">
+            <i class="fa fa-user nav" id="middle"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#favorites">
+            <i class="fa fa-cutlery nav"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div id="content">
+      <!-- your page content here -->
+      <div class="container">
+        <div class="card" id="top">
+          <h1>Charlie Merrill</h1>
+          <img id="profile-pic" src="https://avatars3.githubusercontent.com/u/22855330?v=4&s=460" target="_blank" alt="My Profile Picture">
+          <h2>Web Developer</h2>
+          <p>I'm learning to code. I'm not very good at it.</p>
+        </div>
+        <div class="card">
+          <h3>Social Media</h3>
+          <ul>
+            <li id="social">
+              <a href="https://www.linkedin.com/in/charlie-merrill-428487b5/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i><br>LinkedIn</a>
+            </li>
+            <li id="social">
+              <a href="https://github.com/CharlieMerrill" target="_blank"><i class="fa fa-github" aria-hidden="true"></i><br>GitHub</a>
+            </li>
+          </ul>
+        </div>
+        <div class="card restaurants" id="favorites">
+          <h3>My Favorite Lunch Spots Near Le Wagon</h3>
+          <table>
+            <tbody>
+              <tr>
+                <td>
+                  <img class="table-image" src="http://apis.infoportugal.info/cms-media/pois/final/137/JRN.RE.25755-137298.jpg" alt="Curry from Zaafran">
+                </td>
+                <td>
+                  <h4 class="restaurant-name">Zaafran</h4>
+                  <p>For only 6 euros, you get a tray with a curry dish and variety of side dishes. Fast and friendly service. Much better than nearby Kathmandu.</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img class="table-image" src="http://www.evasoes.pt/files/2017/03/STV2752-960x640_c.jpg" alt="Sandwich">
+                </td>
+                <td>
+                  <h4 class="restaurant-name">O Prego Da Peixaria</h4>
+                  <p>A lovely selection of Portuguese sandwiches and burgers.</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img class="table-image" src="https://i.ytimg.com/vi/jPLJbSp6vKY/maxresdefault.jpg" alt="Sushi">
+                </td>
+                <td>
+                  <h4 class="restaurant-name">Osaka</h4>
+                  <p>All you can eat sushi!</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
